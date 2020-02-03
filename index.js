@@ -26,10 +26,8 @@ function actionApplyer(i, array){
         return i
     }
     else {
-        let a = array[0](i)
-        let b = array[1](a)
-        return array[2](b)
+        return array.reduce(function(total, element) {return element(total) }, i)
     }
 }
-
+lea
     
