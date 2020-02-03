@@ -29,5 +29,4 @@ function actionApplyer(i, array){
         return array.reduce(function(total, element) {return element(total) }, i)
     }
 }
-lea
     
